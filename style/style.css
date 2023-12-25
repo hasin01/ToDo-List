@@ -1,0 +1,115 @@
+body {
+    background-color: #1E1E24;
+    color: aliceblue;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+.app {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.header{
+    margin-top: 200px;
+    
+}
+.toDoForm {
+    margin-top: 20px;
+ 
+  
+}
+
+.toDoInput {
+    background-color: #1E1E24;
+    border: 1px solid #A35709;
+    border-radius: 30px;
+    padding: 10px;
+    margin-bottom: 10px;
+    color: aliceblue;
+    width: 300px;
+    margin-right: 3px;
+}
+
+.toDoButton {
+    background-color: #1F1E1B;
+    height: 40px;
+    width: 120px;
+    border: 1px solid #A35709;
+    border-radius: 30px;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+.toDoButton:focus {
+    border: 1px solid #FF8303;
+    outline: none;
+}
+
+.toDoCardList {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1E1E24;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  
+}
+
+.toDoCardItems {
+    color: #FF8303;
+    flex-grow: 1;
+    padding: 10px;
+    min-width: 300px;
+    max-width: 300px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+.buttonToDoCard {
+    background-color: #A35709;
+    color: #fff;
+    padding: 10px;
+    border: 1px solid #FF8303;
+    outline: none;
+    cursor: pointer;
+    border-radius: 50%;
+    max-width: 20px;
+    max-height: 20px;
+    position: relative;
+}
+
+.buttonToDoCard::after {
+    content: '\00D7';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 14px;
+    color: #fff;
+}
+
+.buttonToDoCard:hover {
+    background-color: #FF8303;
+}
+.btnClear{
+    background-color: #1F1E1B;
+    height: 30px;
+    width: 120px;
+    border: 1px solid #A35709;
+    border-radius: 30px;
+    color: aliceblue;
+    cursor: pointer;
+
+}
+.is-hidden{
+    visibility: hidden;
+    
+}
