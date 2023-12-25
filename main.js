@@ -1,4 +1,4 @@
-import { Notify } from 'notiflix/build/notiflix-notify-aio';
+// import { Notify } from 'notiflix/build/notiflix-notify-aio';
 const refs = {
   addButton: document.querySelector(".toDoButton"),
   form: document.querySelector(".toDoForm"),
@@ -27,7 +27,7 @@ function handleFormSubmit(event) {
  
   if (refs.input.value.trim() === "") {
     
-Notify.failure('Enter the task');
+// Notify.failure('Enter the task');
     return;
   }
   let formData = new FormData(event.target);
