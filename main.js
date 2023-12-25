@@ -1,4 +1,4 @@
-import { Notify } from 'notiflix/build/notiflix-notify-aio';
+import { Notify } from '/node_modules/notiflix/build/notiflix-notify-aio';
 const refs = {
   addButton: document.querySelector(".toDoButton"),
   form: document.querySelector(".toDoForm"),
